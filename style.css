@@ -2,3 +2,11 @@ body{
     
     
 }
+#bgImageDiv{
+    display: flex;
+    justify-content: left
+}
+#bgImage{
+    width: 50%;
+    height: 100vh;
+}
