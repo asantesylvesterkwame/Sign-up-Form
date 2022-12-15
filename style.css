@@ -1,5 +1,6 @@
 body{
     background: url(resturant.jpg);
+    font-family: poppins,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .formDiv{
     display: grid;
@@ -14,7 +15,7 @@ body{
 }
 .logo{
     background-color: rgba(0, 0, 0, 0.5);
-    height: 10%;
+    height: 10vh;
     position: relative;
     top: 50%;
 }
@@ -31,4 +32,37 @@ body{
     font-family: poppins,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(221, 124, 124) ;
     font-weight: 900;
+}
+.introLogoDiv{
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    height: 25%;
+}
+.introTextDiv{
+    display: flex;
+    justify-content: space-around;
+    margin: 10%;
+    font-family: poppins,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.formSectionDiv{
+    display: block;
+    padding: 10%;
+    font-family: poppins,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 2px 4px 8px;
+    border-radius: 20px;
+    background-color: rgb(202, 87, 87);
+}
+.firstFormSection{
+    display: flex;
+    gap: 10%;
+}
+.secondFormSection{
+    display: flex;
+    gap: 10%;
+    
+}
+.thirdFormSection{
+    display: flex;
+    gap: 10%;
 }
