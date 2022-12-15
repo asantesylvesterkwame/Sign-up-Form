@@ -66,3 +66,10 @@ body{
     display: flex;
     gap: 10%;
 }
+.submitBtn>button{
+    width: 25%; 
+}
+.submitBtn>button:hover{
+   box-shadow: 2px 4px 8px;
+   color: black;
+}
