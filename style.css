@@ -29,8 +29,11 @@ body{
     height: 100%;
 }
 .logoImage>span>h1{
+    position: relative;
+    top:25%;
     font-family: poppins,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(221, 124, 124) ;
+    color: rgb(221, 124, 124);
+    color: whitesmoke;
     font-weight: 900;
 }
 .introLogoDiv{
@@ -46,7 +49,8 @@ body{
     font-family: poppins,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .formSectionDiv{
-    display: block;
+    display: grid;
+    grid-template-columns: 1fr;
     padding: 10%;
     font-family: poppins,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-shadow: 2px 4px 8px;
@@ -54,7 +58,7 @@ body{
     background-color: rgb(202, 87, 87);
 }
 .firstFormSection{
-    display: flex;
+    display: inline;
     gap: 10%;
 }
 .secondFormSection{
@@ -66,9 +70,6 @@ body{
     display: flex;
     gap: 10%;
 }
-.submitBtn>button{
-    
-}
 .submitBtn>button:hover{
    box-shadow: 2px 4px 8px;
    color: black;
@@ -76,4 +77,19 @@ body{
 a{
     text-decoration: none;
     font-family: poppins,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.pure-form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#password{
+    border: none;
+    border-radius: 4px;
+}
+#confirm_password{
+    border: none;
+    border-radius: 4px;
+}
+#signUpSectionDiv{
+    
 }
